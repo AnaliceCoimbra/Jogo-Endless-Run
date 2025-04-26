@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 361
     height: 523
   m_SerializedDataModeController:
@@ -320,7 +320,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8030ffff0c5affff805fffff
+      m_ExpandedIDs: c8dffeff44e0feff9ce9feff68eafeff0aebfeff1c57ffff445fffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -366,8 +366,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 363
-    y: 24
+    x: 362
+    y: 79
     width: 1103
     height: 523
   m_SerializedDataModeController:
@@ -840,9 +840,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -2.5426223, y: 3.4673505, z: -3.76508}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -2.5426223, y: 3.4673505, z: -3.76508}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -888,13 +888,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.21021889, y: -0.375058, z: 0.08774378, w: -0.89859617}
+    m_Target: {x: -0.06263367, y: 0.9109645, z: -0.1505733, w: -0.37893504}
     speed: 2
-    m_Value: {x: 0.2102189, y: 0.37505803, z: -0.08774379, w: 0.8985962}
+    m_Value: {x: -0.062632315, y: 0.9109447, z: -0.15057003, w: -0.3789268}
   m_Size:
-    m_Target: 0.8660283
+    m_Target: 10
     speed: 2
-    m_Value: 0.8660283
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 1
+  m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 573
+    y: 628
     width: 1466
     height: 358
   m_SerializedDataModeController:
@@ -1076,7 +1076,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/script
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1086,16 +1086,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/script
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jpsil\Documents\GitHub\Jogo-Endless-Run
+  m_LastProjectPath: "C:\\Users\\harry\\OneDrive\\\xC1rea de Trabalho\\Unity\\Jogo-Endless-Run"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 84d80000
-    m_LastClickedID: 55428
-    m_ExpandedIDs: 
+    m_SelectedIDs: 66d70000
+    m_LastClickedID: 55142
+    m_ExpandedIDs: 000000005ed7000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1239,8 +1239,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1468
-    y: 24
+    x: 1467
+    y: 79
     width: 452
     height: 907
   m_SerializedDataModeController:
@@ -1261,7 +1261,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 345
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
