@@ -66,31 +66,7 @@ public class GroundSpawner : MonoBehaviour
 
     void SpawnObstaclesOnTile(GameObject tile)
     {
-        if (obstaclePrefabs.Length == 0) return;
-
-        // Mais obstáculos por tile (entre 3 e 6)
-        int obstacleCount = Random.Range(3, 7);
-
-        for (int i = 0; i < obstacleCount; i++)
-        {
-            if (Random.value < obstacleSpawnChance)
-            {
-                GameObject prefab = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
-                GameObject obstacle = Instantiate(prefab);
-
-                Vector3 prefabOffset = prefab.transform.localPosition;
-
-                float spawnX = Random.Range(-13f, 13f);
-                float spawnZ = Random.Range(0f, tileLength);
-                float spawnY = prefabOffset.y;
-
-                Vector3 spawnPos = tile.transform.position + new Vector3(spawnX, spawnY, spawnZ);
-
-                obstacle.transform.position = spawnPos;
-                obstacle.transform.rotation = prefab.transform.rotation;
-                obstacle.transform.SetParent(tile.transform);
-            }
-        }
+        // Eu alterei esse script para colocar o outro
     }
 
     void DeleteTile()
