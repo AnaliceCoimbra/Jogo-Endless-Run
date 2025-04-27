@@ -149,14 +149,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclePrefabs:
-  - {fileID: 6839127339925681598, guid: c6f96d45b60a6f640b7915e3199f05da, type: 3}
+  - {fileID: 276481056994863444, guid: 5f3a8a8bbd3941d409defcbe6a005869, type: 3}
+  - {fileID: 3110351068787902027, guid: 35b81a841496ac041a9f66e51544127f, type: 3}
   - {fileID: 8538271863076465887, guid: 81577653bdb8fef4bada6b92f42c0bbe, type: 3}
-  - {fileID: 5610771616990672729, guid: 73fc0bedb8a46de49ad51c55d27fb54c, type: 3}
+  - {fileID: 8715323409477437531, guid: c6dfea2a812bf604f9fdcb4c57939099, type: 3}
+  - {fileID: 8716615094420574993, guid: 2d1cdfff37d78f3489cd8588a2124751, type: 3}
+  - {fileID: 3516748605811259723, guid: 34d60d133fa091349b30073352e80298, type: 3}
   player: {fileID: 1788254725}
   spawnDistance: 30
   minDelay: 1.5
   maxDelay: 2.5
-  minSpacing: 10
+  minSpacing: 13
 --- !u!4 &235723127
 Transform:
   m_ObjectHideFlags: 0
@@ -481,11 +484,12 @@ MonoBehaviour:
   tileLength: 10
   spawnZ: 0
   obstaclePrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  initialObstacleSpawnChance: 0.4
+  - {fileID: 276481056994863444, guid: 5f3a8a8bbd3941d409defcbe6a005869, type: 3}
+  - {fileID: 3110351068787902027, guid: 35b81a841496ac041a9f66e51544127f, type: 3}
+  - {fileID: 8716615094420574993, guid: 2d1cdfff37d78f3489cd8588a2124751, type: 3}
+  - {fileID: 3516748605811259723, guid: 34d60d133fa091349b30073352e80298, type: 3}
+  - {fileID: 8715323409477437531, guid: c6dfea2a812bf604f9fdcb4c57939099, type: 3}
+  initialObstacleSpawnChance: 0.388
   spawnChanceIncreaseRate: 0.02
   maxSpawnChance: 0.95
 --- !u!4 &454471031
@@ -498,6 +502,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &626605580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 626605581}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &626605581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626605580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.598539, y: 3.447794, z: 69.37338}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -643,8 +678,8 @@ MonoBehaviour:
   maxForwardSpeed: 20
   accelerationRate: 0.05
   laneLimit: 4
-  jumpForce: 4
-  DoubleJumpForce: 8
+  jumpForce: 5.5
+  DoubleJumpForce: 7
 --- !u!54 &1788254730
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -681,3 +716,4 @@ SceneRoots:
   - {fileID: 1788254725}
   - {fileID: 454471031}
   - {fileID: 235723127}
+  - {fileID: 626605581}

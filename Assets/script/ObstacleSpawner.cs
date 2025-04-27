@@ -14,6 +14,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     private void Start()
     {
+        lastSpawnZ = player.position.z; // Começa na posição inicial do player
         StartCoroutine(SpawnRoutine());
     }
 
