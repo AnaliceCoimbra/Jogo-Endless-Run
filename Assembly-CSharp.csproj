@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4C3206DF-E5D6-4438-19CF-B5E67910F190}</ProjectGuid>
+    <ProjectGuid>{3A9AC835-948C-8D06-2C5D-166EFCC7AB12}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,7 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\script\GroundSpawner.cs" />
     <Compile Include="Assets\script\CameraFollow.cs" />
-    <Compile Include="Assets\script\PlayerController.cs" />
+    <Compile Include="Assets\script\PlayerMovements.cs" />
     <Compile Include="Assets\script\PlayerCollisionReset.cs" />
     <Compile Include="Assets\script\ObstacleSpawner.cs" />
   </ItemGroup>
