@@ -1,3 +1,4 @@
+using System.Net;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -18,10 +19,14 @@ public class PlayerMovement : MonoBehaviour
     private bool jumpRequested = false;
     private bool doubleJumpRequested = false;
 
+  
+
 
 
     void Start()
     {
+        
+
         rb = GetComponent<Rigidbody>();
         originalScale = transform.localScale; // Salva o tamanho de escala original do cubo
         currentForwardSpeed = initialForwardSpeed;// velocidade inicial do cubo/jogador
@@ -161,4 +166,6 @@ public class PlayerMovement : MonoBehaviour
             canDoubleJump = false;
         }
     }
+
+    
 }
