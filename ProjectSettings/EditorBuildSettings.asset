@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 38964ae1171d36c4fab91bf1c4f0d2da
+  - enabled: 1
     path: Assets/Scenes/Endless Runner.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: d121750af2d98294c824544ce95a198a
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: 0157d742dff4ce340893e6fb709fc76a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
