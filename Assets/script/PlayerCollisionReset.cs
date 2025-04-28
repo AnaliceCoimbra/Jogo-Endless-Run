@@ -8,7 +8,7 @@ public class PlayerCollisionReset : MonoBehaviour
         if (other.gameObject.CompareTag("Obstacle"))
         {
             Debug.Log("Colidiu com obstáculo, reiniciando...");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(2);
         }
     }
 }

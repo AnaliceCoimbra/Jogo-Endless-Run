@@ -156,9 +156,9 @@ MonoBehaviour:
   - {fileID: 8716615094420574993, guid: 2d1cdfff37d78f3489cd8588a2124751, type: 3}
   - {fileID: 3516748605811259723, guid: 34d60d133fa091349b30073352e80298, type: 3}
   player: {fileID: 1788254725}
-  spawnDistance: 40
-  minDelay: 2
-  maxDelay: 3
+  spawnDistance: 30
+  minDelay: 1.8
+  maxDelay: 2.5
   minSpacing: 15
 --- !u!4 &235723127
 Transform:
@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788254720}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6623539dfd838d4fa14630229c84838, type: 3}
   m_Name: 
@@ -1296,10 +1296,10 @@ MonoBehaviour:
   moveSpeed: 5
   initialForwardSpeed: 5
   maxForwardSpeed: 20
-  accelerationRate: 0.05
+  accelerationRate: 0.4
   laneLimit: 4
-  jumpForce: 5.5
-  DoubleJumpForce: 7
+  jumpForce: 4.5
+  DoubleJumpForce: 6
 --- !u!54 &1788254730
 Rigidbody:
   m_ObjectHideFlags: 0
